@@ -20,15 +20,19 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 20px
   }
   
   .timer .timer__body div {
     font-size: 24px;
-    flex: 0.1;
     justify-content: center;
     display: flex;
     margin: 0 10px;
+  }
+
+  .timer .timer__body div#hours,
+  .timer .timer__body div#minutes,
+  .timer .timer__body div#seconds {
+    margin-bottom: 20px
   }
   
   .timer .timer__action {
