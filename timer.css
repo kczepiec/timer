@@ -1,0 +1,63 @@
+html, body {
+    font-family: 'Helvetica';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #d1d8e0
+  }
+  
+  .timer {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 300px;
+    box-shadow: 0 10px 15px 1px rgba(0,0,0,0.05)
+  }
+  
+  .timer .timer__body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px
+  }
+  
+  .timer .timer__body div {
+    font-size: 24px;
+    flex: 0.1;
+    justify-content: center;
+    display: flex;
+    margin: 0 10px;
+  }
+  
+  .timer .timer__action {
+    display: flex;
+  }
+  
+  .timer .timer__action button {
+    flex: 1;
+    border: 0;
+    padding: 12px 12px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .timer .timer__action button:focus {
+    outline: none;
+  }
+  
+  .timer .timer__action .startCount {
+    background-color: #26de81
+  }
+  
+  .timer .timer__action .startCount {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+  
+  .timer .timer__action .clearCount {
+    background-color: #778ca3;
+    border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
